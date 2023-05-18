@@ -1,5 +1,5 @@
 import React from "react";
-
+import Nav from "./Nav.jsx";
 // TODO: Create a styles object called "styles"
 
 function Header() {
@@ -7,6 +7,7 @@ function Header() {
   return (
     <nav className="navbar">
       <a href="/">Header</a>
+      <Nav></Nav>
     </nav>
   );
 }
