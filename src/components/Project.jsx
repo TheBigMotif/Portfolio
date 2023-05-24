@@ -13,34 +13,34 @@ import screenshotVatReturns from "../images/screenshots/vat-returns.png";
 const features = [
   {
     title: "Text-editor",
-    description: "Amazing app.",
+    description:
+      "Text Editor Pro is a lightweight, efficient app offering robust text editing, syntax highlighting, customizable interface, and built-in collaboration for seamless coding and note-taking.",
     image: screenshotPayroll,
-    github: "https://github.com/aaronagraz",
+    github: "https://github.com/aaronagraz/text-editor",
     url: "https://aaronagraz.github.io/Password-generator/",
   },
   {
-    title: "Claim expenses",
-    description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+    title: "Note taker",
+    description: "Easily take notes and save them to your local storage.",
     image: screenshotExpenses,
-    github: "https://github.com/aaronagraz",
+    github: "https://github.com/aaronagraz/note-taker",
     url: "https://aaronagraz.github.io/Password-generator/",
   },
   {
-    title: "VAT handling",
+    title: "Team Profile Generator",
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "A CLI app that lets you add members of your orgranization and render it on a html page!",
     image: screenshotVatReturns,
-    github: "https://github.com/aaronagraz",
+    github: "https://github.com/aaronagraz/Team-profile-generator",
     url: "https://aaronagraz.github.io/Password-generator/",
   },
   {
-    title: "Reporting",
+    title: "Weather Dashboard",
     description:
-      "Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.",
+      "Intuitive simple app to check the weather on any city, on the current day and 5 days afterwards.",
     image: screenshotReporting,
-    github: "https://github.com/aaronagraz",
-    url: "https://aaronagraz.github.io/Password-generator/",
+    github: "https://github.com/aaronagraz/Weather-Dashboard",
+    url: "https://aaronagraz.github.io/Weather-Dashboard/",
   },
 ];
 
@@ -79,11 +79,10 @@ function Project() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Some of my projects
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Here you can see some projects I made, check them out!
           </p>
         </div>
         <Tab.Group
@@ -134,12 +133,12 @@ function Project() {
                       >
                         Check it out!
                       </a>
-                      <a
+                      {/* <a
                         href={feature.url}
                         className="relative mx-auto max-w-2xl text-base text-white sm:text-center"
                       >
                         Try it out! Bru!
-                      </a>
+                      </a> */}
                     </div>
                   ))}
                 </Tab.List>

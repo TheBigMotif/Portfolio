@@ -1,17 +1,25 @@
 import React from "react";
 import resume from "../assets/Resume.pdf"; //gets to the above level to reach the assets folder
-
+import Skills from "./Skills";
 function Resume() {
   return (
     <div className="text-center">
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-        Video Editing, Graphic Design, and Web Development CSS, HTML,
-        JavaScript, React, Node.js, Express, MongoDB, and more!
+        I've been working as a creative for over 10 years. I specialize in web
+        development, video editing, graphic design and marketing.
       </h1>
+      <br></br>
+      <br></br>
+
+      <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        I've been working as a creative for over 10 years. I specialize in web
+        development, video editing, graphic design and marketing.
+      </h2>
+      <br></br>
       <p className="mt-6 text-lg leading-8 text-gray-600">
-        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-        cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+        Below is a list of my skills.
       </p>
+      <Skills />
       <div className="mt-10 flex items-center justify-center gap-x-6">
         <a
           href={resume}
@@ -20,8 +28,11 @@ function Resume() {
         >
           Download resume
         </a>
-        <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-          Learn more <span aria-hidden="true">→</span>
+        <a
+          href="https://www.behance.net/aaronagraz"
+          className="text-sm font-semibold leading-6 text-gray-900"
+        >
+          Creative work<span aria-hidden="true">→</span>
         </a>
       </div>
     </div>

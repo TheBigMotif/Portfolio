@@ -9,27 +9,25 @@ import { Logo } from "./Logo";
 export default function Register() {
   return (
     <>
-      <header>
-        <title>Sign Up - TaxPal</title>
-      </header>
+      <header>{/* <title>Sign Up - TaxPal</title> */}</header>
       <AuthLayout>
         <div className="flex flex-col">
           <a href="/" aria-label="Home">
-            <Logo className="h-10 w-auto" />
+            {/* <Logo className="h-10 w-auto" /> */}
           </a>
           <div className="mt-20">
             <h2 className="text-lg font-semibold text-gray-900">
-              Get started for free
+              Let's get in touch
             </h2>
             <p className="mt-2 text-sm text-gray-700">
-              Already registered?{" "}
+              {/* Already registered?{" "} */}
               <a
                 href="/login"
                 className="font-medium text-blue-600 hover:underline"
               >
-                Sign in
+                {/* Sign in */}
               </a>{" "}
-              to your account.
+              Hit me up with an email!
             </p>
           </div>
         </div>

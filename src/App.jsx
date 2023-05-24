@@ -11,6 +11,7 @@ import Portfolio from "./components/Portfolio.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Resume from "./components/Resume.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Skills from "./components/Skills";
 
 function App() {
   const [count, setCount] = useState(0);

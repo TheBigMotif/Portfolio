@@ -20,11 +20,11 @@ export default function Example() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://res.cloudinary.com/dm7phzl7a/image/upload/v1684968668/logo_aaronagraz_oztpy2.png"
                 alt=""
               />
             </a>
@@ -52,10 +52,10 @@ export default function Example() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a
-              href="#"
+              href="/"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Log in <span aria-hidden="true">&rarr;</span>
+              {/* Log in <span aria-hidden="true">&rarr;</span> */}
             </a>
           </div>
         </nav>
