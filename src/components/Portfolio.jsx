@@ -6,7 +6,7 @@ function Portfolio() {
   // TODO: Add a style attribute to `nav`
   return (
     <nav className="navbar">
-      <a href="/">Portfolio</a>
+      {/* <a href="/">Portfolio</a> */}
       <Project></Project>
     </nav>
   );
